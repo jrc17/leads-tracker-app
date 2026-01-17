@@ -1,19 +1,28 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Leads Tracker – Chrome Extension
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+The Leads Tracker is a simple Chrome extension that allows users to save and manage website links they want to revisit later.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- Save the current tab’s URL
+- View saved links in a list
+- Delete links when no longer needed
+- Data persists using browser local storage
 
-Happy Coding!
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Browser Local Storage
+- Chrome Extension APIs
+
+## Installation
+
+This extension is not published on the Chrome Web Store.  
+It can be installed locally by loading the project folder as an unpacked extension through Chrome’s Developer Mode.
+
+## Notes
+
+This project was built as part of a Scrimba frontend course.  
+I implemented the local storage functionality and application logic. The `manifest.json` file was provided as part of the course material.
